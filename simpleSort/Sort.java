@@ -1,6 +1,6 @@
 package simpleSort;
 
-public class BubbleSort {
+public class Sort {
     int[] array;
 
     public int[] bubblesort(int[] array) {

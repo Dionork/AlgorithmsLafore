@@ -35,7 +35,7 @@ public class Service {
             }
         }
     }
-
+//Бинарный поиск
     public static int search(int vol, int[] array) {
         int lowEle = 0;
         int nElements = 0;

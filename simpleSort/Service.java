@@ -35,6 +35,7 @@ public class Service {
             }
         }
     }
+
     public static int search(int vol, int[] array) {
         int lowEle = 0;
         int nElements = 0;

@@ -4,13 +4,15 @@ import java.util.Arrays;
 
 public class SimpleSortMain {
     public static void main(String[] args) {
-        int array[] = CreateMass.createMass(20, 10);
-        BubbleSort a1 = new BubbleSort();
-        Service.displayArr(array);
-        Service.insert(10, array);
-        Service.displayArr(array);
-        a1.bubblesort(array);
-        Service.displayArr(array);
-        Service.search(10, array);
+        int array1[] = CreateMass.createMass(5, 5);
+        int array2[] = CreateMass.createMass(4, 4);
+        BubbleSort sort = new BubbleSort();
+
+        sort.bubblesort(array1);
+        sort.bubblesort(array2);
+        Service.displayArr(array1);
+        Service.displayArr(array2);
+        int [] merge = Merger.merge(array1,array2);
+        Service.displayArr(merge);
     }
 }

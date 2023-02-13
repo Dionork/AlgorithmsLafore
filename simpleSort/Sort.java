@@ -4,6 +4,7 @@ public class Sort {
     private int[] array;
     private int nElements = 0;
     int how = 0;
+
     public int[] bubbleSort(int[] array) {
         int out, in;
         this.array = array;
@@ -44,17 +45,17 @@ public class Sort {
             if (array[i] < array[i + 1]) {
                 isGood = true;
                 continue;
-            } else if (how<=10){
+            } else if (how <= 10) {
                 how++;
                 isGood = false;
                 break;
-            }else {
+            } else {
                 System.out.println("Есть двойные числа");
 
                 return array;
             }
         }
-        return (isGood?array:chooseSort(this.array));
+        return (isGood ? array : chooseSort(this.array));
     }
 
     private void nElements(int[] array) {

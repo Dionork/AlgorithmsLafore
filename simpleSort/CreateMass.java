@@ -35,7 +35,6 @@ public class CreateMass {
             }
         }
     }
-
     public int[] getArray() {
         return array;
     }

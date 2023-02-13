@@ -1,8 +1,8 @@
 package simpleSort;
 
 public class CreateMass {
-    protected int[] array;
-    protected int nElements;
+
+
 
     public static int[] createMass(int max, int currentVol) {
         int[] array = new int[max];
@@ -10,11 +10,6 @@ public class CreateMass {
             array[i] = (int) (Math.random() * 100);
 
         }
-        return array;
-    }
-
-
-    public int[] getArray() {
         return array;
     }
 }

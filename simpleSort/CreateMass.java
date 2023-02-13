@@ -4,39 +4,15 @@ public class CreateMass {
     protected int[] array;
     protected int nElements;
 
-    public CreateMass(int max) {
-        array = new int[max];
-        nElements = 0;
-    }
+    public static int [] createMass(int max,int currentVol) {
+        int [] array = new int[max];
+        for (int i = 0; i < currentVol; i++) {
+            array[i] = (int)(Math.random()*100);
 
-
-    public void displayArr() {
-        for (int i = 0; i < nElements; i++) {
-            System.out.print(" " + array[i]);
         }
-        System.out.println("\n");
-
+        return array;
     }
 
-    public void delete(int val) {
-        int j;
-        for (j = 0; j < nElements; j++) {
-            if (val == array[j]) {
-                for (int i = j; i < nElements; i++) {
-                    array[i] = array[i + 1];
-                    nElements--;
-                    System.out.println("Значение удалено!");
-                    return;
-                }
-            }
-        }
-        System.out.println("Значение не найдено!");
-    }
-
-    public void insert(int val) {
-        array[nElements] = val;
-        nElements++;
-    }
     //Бинарный поиск
     public int search(int vol) {
         int lowEle = 0;
@@ -58,5 +34,9 @@ public class CreateMass {
                 }
             }
         }
+    }
+
+    public int[] getArray() {
+        return array;
     }
 }

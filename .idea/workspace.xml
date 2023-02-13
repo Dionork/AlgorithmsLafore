@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22d729dd-7e9b-4a77-86ed-96f56373a6a8" name="Changes" comment="Добавил класс сортировки пузырьком">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorithmsLaforte.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleSort/Merger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleSort/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleSort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleSort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleSort/CreateMass.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleSort/CreateMass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleSort/SimpleSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleSort/SimpleSortMain.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LXEEfuuEwK7HhdriO44rfXlWxT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "G:/Project Java/AlgorithmsLaforte"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SimpleSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleSort.SimpleSortMain" />
+      <module name="AlgorithmsLaforte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleSortMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22d729dd-7e9b-4a77-86ed-96f56373a6a8" name="Changes" comment="" />
+      <created>1676008918934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676008918934</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Создал директорию, .gitignore и README.md">
+      <created>1676009643401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676009643401</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Создал и описал класс CreateMass">
+      <created>1676013522731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676013522731</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил методы вставки и удаления в CreateMass">
+      <created>1676023267225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676023267225</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавил класс сортировки пузырьком">
+      <created>1676026489045</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676026489045</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создал директорию, .gitignore и README.md" />
+    <MESSAGE value="Создал и описал класс CreateMass" />
+    <MESSAGE value="Добавил методы вставки и удаления в CreateMass" />
+    <MESSAGE value="Добавил класс сортировки пузырьком" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил класс сортировки пузырьком" />
+  </component>
+</project>
